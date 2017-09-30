@@ -1,3 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  height: 100vh;
+  background-attachment: fixed;
+  background: #b02e48;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #bdae98, #b02e48);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #bdae98, #b02e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cui__bubble--slideIn::before {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 10px;
+  content: "";
+  background: url(./assets/icon.png) no-repeat 0 0;
+  background-size: 100%;
+}
