@@ -1,13 +1,5 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
-/*body {*/
-/*height: 100vh;*/
-/*background-attachment: fixed;*/
-/*background: #b02e48;  !* fallback for old browsers *!*/
-/*background: -webkit-linear-gradient(to top, #bdae98, #b02e48);  !* Chrome 10-25, Safari 5.1-6 *!*/
-/*background: linear-gradient(to top, #bdae98, #b02e48); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
-/*}*/
-
 .cui__bubble--slideIn::before {
   display: inline-block;
   width: 40px;

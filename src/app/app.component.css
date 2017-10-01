@@ -7,6 +7,16 @@
   box-shadow: 2px 2px 11px rgba(15, 15, 15, 0.47);
 }
 
+.menu-container {
+  height: 93vh;
+  background-color: rgba(200, 215, 255, 0.6);
+  padding-top: 1.9em;
+  margin-top: 1.5em;
+  margin-left: 2.5em;
+  margin-right: 1.5em;
+  box-shadow: 2px 2px 11px rgba(15, 15, 15, 0.47);
+}
+
 .logo {
   position: absolute;
   left: 40%;
