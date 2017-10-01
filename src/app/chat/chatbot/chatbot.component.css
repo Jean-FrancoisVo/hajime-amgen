@@ -1,3 +1,14 @@
 .cui__bubble {
   box-shadow: 2px 2px 3px 0 rgba(10, 10, 10, 0.21);
 }
+
+#entry {
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+}
+
+#entry input {
+  outline: none;
+  width: 31.5vw;
+}
