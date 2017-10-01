@@ -10,3 +10,58 @@
   background: url(./assets/icon.png) no-repeat 0 0;
   background-size: 100%;
 }
+
+#pie1 path.color0 {
+  fill: #314755;
+}
+
+#pie1 text {
+  fill: #314755;
+}
+
+#pie2 path.color0 {
+  fill: #315D74;
+}
+
+#pie2 text {
+  fill: #315D74;
+}
+
+#pie3 path.color0 {
+  fill: #2D7496;
+}
+
+#pie3 text {
+  fill: #2D7496;
+}
+
+#pie4 path.color0 {
+  fill: #2A8EBB;
+}
+
+#pie4 text {
+  fill: #2A8EBB;
+}
+
+#pie5 path.color0 {
+  fill: #26a0da;
+}
+
+#pie5 text {
+  fill: #26a0da;
+}
+
+path.color0 {
+  fill: #15158a;
+}
+
+path.color1 {
+  fill: rgba(100, 100, 100, .1);
+}
+
+text {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 16em;
+  fill: #15158a;
+}
