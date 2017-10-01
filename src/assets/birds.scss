@@ -1,6 +1,4 @@
 body {
-  //width: 100vw;
-  //min-height: 100vh;
   height: 100%;
   margin: 0;
   overflow: hidden;
@@ -13,7 +11,8 @@ canvas {
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(#B7B0E3, #FFD3D6);
+  //background: linear-gradient(#B7B0E3, #FFD3D6);
+  background: linear-gradient(#91d7fa, #4dabff);
 }
 
 @keyframes anim {
@@ -40,7 +39,7 @@ canvas {
   position: absolute;
   background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/131045/clouds.png") 0 0 no-repeat;
   background-size: 100%;
-  z-index: 0;
+  z-index: -90;
 }
 
 .c1.one, .c2.one {
