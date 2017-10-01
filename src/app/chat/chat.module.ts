@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { TypingDirective } from './typing.directive';
 
 @NgModule({
   imports: [
@@ -9,7 +10,7 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
   exports: [
     ChatbotComponent
   ],
-  declarations: [ ChatbotComponent ]
+  declarations: [ ChatbotComponent, TypingDirective ]
 })
 export class ChatModule {
 }

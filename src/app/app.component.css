@@ -1,12 +1,15 @@
 .chatbot-container {
-  height: 90vh;
+  height: 93vh;
   background-color: rgba(255, 255, 255, 0.35);
   padding-top: 1.9em;
-  margin-top: 5em;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  box-shadow: 2px 2px 11px rgba(15, 15, 15, 0.45);
 }
 
 .logo {
   position: absolute;
+  left: 40%;
 }
 
 .logo img {

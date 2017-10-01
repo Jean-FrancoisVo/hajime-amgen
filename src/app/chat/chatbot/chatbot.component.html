@@ -1,1 +1,9 @@
-<div id="chat"></div>
+<div id="chat">
+  <ol class="cui__list">
+    <li class="cui__list__item">
+      <div *ngFor="let text of texts">
+        <div class="cui__bubble cui__bubble--slideIn" appTyping [text]="text"></div>
+      </div>
+    </li>
+  </ol>
+</div>

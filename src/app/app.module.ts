@@ -2,9 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {ChatModule} from './chat/chat.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChatModule } from './chat/chat.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MenuModule } from './menu/menu.module';
 
 @NgModule({
   declarations: [
@@ -14,9 +15,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    ChatModule
+    ChatModule,
+    MenuModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {
+}
